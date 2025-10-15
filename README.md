@@ -13,7 +13,7 @@ Quality Gates ensure that accessibility is part of your definition of “done.�
 - Demo shows a gate blocking non-compliant code and passing compliant builds.  
 
 📸 *Screenshot: Quality Gate results*  
-`![Quality Gate Screenshot](./screenshots/quality-gate.png)`
+![Quality Gate Screenshot](./screenshots/quality-gate.png)
 
 ---
 
@@ -21,7 +21,7 @@ Quality Gates ensure that accessibility is part of your definition of “done.�
 Every commit to the `main` branch is scanned automatically to keep your baseline clean.  
 
 📸 *Screenshot: Main branch scan results*  
-`![Main Branch Scan](./screenshots/main-branch-scan.png)`
+![Main Branch Scan](./screenshots/main-branch-scan.png)
 
 ---
 
@@ -33,7 +33,7 @@ Accessibility checks run as part of your CI pipeline alongside functional and un
 - Ensures no regressions slip through.  
 
 📸 *Screenshot: Pipeline run with accessibility scan*  
-`![Pipeline Run](./screenshots/pipeline-run.png)`
+![Pipeline Run](./screenshots/pipeline-run.png)
 
 ---
 
@@ -47,7 +47,7 @@ Pull Requests are where Level CI shines—providing **shift-left feedback** befo
 - **AI Code Remediation suggestions** are surfaced directly in the PR for faster fixes.  
 
 📸 *Screenshot: PR failing with remediation*  
-`![Failing PR with AI Remediation](./screenshots/pr-fail-ai-remediation.png)`
+![Failing PR with AI Remediation](./screenshots/pr-fail-ai-remediation.png)
 
 ---
 
@@ -56,7 +56,7 @@ Pull Requests are where Level CI shines—providing **shift-left feedback** befo
 - Quality Gate passes, merge allowed.  
 
 📸 *Screenshot: Passing PR*  
-`![Passing PR](./screenshots/pr-pass.png)`
+![Passing PR](./screenshots/pr-pass.png)
 
 ---
 
@@ -67,7 +67,7 @@ The dashboard highlights:
 - Remediation status across branches and teams.  
 
 *Screenshot: PR scan dashboard*  
-`![PR Scan Dashboard](./screenshots/pr-scan-dashboard.png)`
+![PR Scan Dashboard](./screenshots/pr-scan-dashboard.png)
 
 ---
 
