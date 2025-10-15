@@ -12,4 +12,12 @@ test.describe("navigation", () => {
     // Run the accessibility analysis and write a report to ./level-ci-reports
     await levelAnalyze(page);
   });
+
+    test("runs Level CI analysis on the terms page", async ({ page }) => {
+    await page.goto("/terms.html");
+
+    await expect(page.locator("header")).toContainText(/Terms & conditions/);
+    // Run the accessibility analysis and write a report to ./level-ci-reports
+    await levelAnalyze(page);
+  });
 });
