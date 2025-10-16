@@ -12,7 +12,7 @@ Quality Gates ensure that accessibility is part of your definition of “done.�
 - Thresholds can be customized per org/project.  
 - Demo shows a gate blocking non-compliant code and passing compliant builds.  
 
-📸 *Screenshot: Quality Gate results*  
+📸 *Screenshot: Quality Gate*  
 ![Quality Gate Screenshot](./screenshots/quality-gate.png)
 
 ---
