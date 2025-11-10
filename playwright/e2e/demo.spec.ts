@@ -13,6 +13,7 @@ test.describe("navigation", () => {
     await levelAnalyze(page);
   });
 
+  
   test("runs Level CI analysis on the terms page", async ({ page }) => {
     await page.goto("/terms.html");
 
