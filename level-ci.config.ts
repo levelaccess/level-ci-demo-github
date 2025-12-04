@@ -5,4 +5,9 @@ export default {
   project: "level-ci-demo-github",
   token: process.env.LEVEL_CI_TOKEN,
   reportPaths: ["./level-ci-reports"],
+  override: {
+    "passing-branch": {
+      retention: "long",
+    },
+  },
 } satisfies Config;
